@@ -1,6 +1,6 @@
 FROM python:alpine
 
-RUN pip install flask jinja2
+RUN pip install flask
 
 COPY src /src/
 
